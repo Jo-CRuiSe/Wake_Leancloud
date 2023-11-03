@@ -7,7 +7,7 @@ def get_status(url):
     return r.status_code
 
 def main():
-    status=get_status("https://blog.lxc666.cn/") #修改为自己的valine评论地址
+    status=get_status("https://jo-cruise.github.io/posts/Welcome/") #修改为自己的valine评论地址
 
     if status==200:
         print("激活成功！HTTP状态码为：",status)
